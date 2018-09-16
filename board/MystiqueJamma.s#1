@@ -13985,6 +13985,20 @@ Source: CYPRESS cy7c1049cv33_8.pdf</description>
 <label x="210.82" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="IC4_11" class="0">
+<segment>
+<pinref part="IC4" gate="A" pin="B8"/>
+<wire x1="203.2" y1="-20.32" x2="215.9" y2="-20.32" width="0.1524" layer="91"/>
+<label x="210.82" y="-20.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="IC4_12" class="0">
+<segment>
+<pinref part="IC4" gate="A" pin="B7"/>
+<wire x1="203.2" y1="-17.78" x2="215.9" y2="-17.78" width="0.1524" layer="91"/>
+<label x="210.82" y="-17.78" size="1.778" layer="95"/>
+</segment>
+</net>
 <net name="P2B5_" class="0">
 <segment>
 <pinref part="IC4" gate="A" pin="B6"/>

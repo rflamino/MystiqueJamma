@@ -2374,6 +2374,12 @@ design rules under a new name.</description>
 <signal name="P2B2_">
 <contactref element="IC3" pad="11"/>
 </signal>
+<signal name="IC4_11">
+<contactref element="IC4" pad="11"/>
+</signal>
+<signal name="IC4_12">
+<contactref element="IC4" pad="12"/>
+</signal>
 <signal name="P2B5_">
 <contactref element="IC4" pad="13"/>
 </signal>
@@ -2527,48 +2533,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="P1B2_3V">
 <contactref element="IC2" pad="9"/>
-</signal>
-<signal name="CS2_3V">
-<contactref element="IC3" pad="2"/>
-</signal>
-<signal name="P2S_3V">
-<contactref element="IC3" pad="3"/>
-</signal>
-<signal name="P2U_3V">
-<contactref element="IC3" pad="4"/>
-</signal>
-<signal name="P2D_3V">
-<contactref element="IC3" pad="5"/>
-</signal>
-<signal name="P2L_3V">
-<contactref element="IC3" pad="6"/>
-</signal>
-<signal name="P2R_3V">
-<contactref element="IC3" pad="7"/>
-</signal>
-<signal name="P2B1_3V">
-<contactref element="IC3" pad="8"/>
-</signal>
-<signal name="P2B2_3V">
-<contactref element="IC3" pad="9"/>
-</signal>
-<signal name="P1B3_3V">
-<contactref element="IC4" pad="2"/>
-</signal>
-<signal name="P1B4_3V">
-<contactref element="IC4" pad="3"/>
-</signal>
-<signal name="P1B5_3V">
-<contactref element="IC4" pad="4"/>
-</signal>
-<signal name="P2B3_3V">
-<contactref element="IC4" pad="5"/>
-</signal>
-<signal name="P2B4_3V">
-<contactref element="IC4" pad="6"/>
-</signal>
-<signal name="P2B5_3V">
-<contactref element="IC4" pad="7"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
