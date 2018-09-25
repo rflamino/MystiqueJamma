@@ -19298,8 +19298,9 @@ KEL 1168-056-009&lt;br&gt;</description>
 <part name="C6" library="adafruit" deviceset="CPOL-US" device="E5-6" value="4.7uF"/>
 <part name="JAMMA1" library="JAMMA" deviceset="JAMMA_TOP" device=""/>
 <part name="JAMMA2" library="JAMMA" deviceset="JAMMA_BOTTOM" device=""/>
-<part name="R28" library="adafruit" deviceset="R-US_" device="0207/7" value="1k"/>
-<part name="R29" library="adafruit" deviceset="R-US_" device="0207/7" value="1k"/>
+<part name="R28" library="adafruit" deviceset="R-US_" device="0207/7" value="470"/>
+<part name="R29" library="adafruit" deviceset="R-US_" device="0207/7" value="470"/>
+<part name="R30" library="adafruit" deviceset="R-US_" device="0207/7" value="20k"/>
 </parts>
 <sheets>
 <sheet>
@@ -19355,6 +19356,7 @@ KEL 1168-056-009&lt;br&gt;</description>
 <instance part="JAMMA2" gate="G$1" x="-86.36" y="-119.38"/>
 <instance part="R28" gate="G$1" x="190.5" y="-134.62"/>
 <instance part="R29" gate="G$1" x="190.5" y="-144.78"/>
+<instance part="R30" gate="G$1" x="200.66" y="-154.94" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -19513,6 +19515,11 @@ KEL 1168-056-009&lt;br&gt;</description>
 <pinref part="JAMMA2" gate="G$1" pin="SPK-"/>
 <wire x1="-71.12" y1="-111.76" x2="-55.88" y2="-111.76" width="0.1524" layer="91"/>
 <label x="-60.96" y="-111.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R30" gate="G$1" pin="1"/>
+<wire x1="200.66" y1="-160.02" x2="200.66" y2="-167.64" width="0.1524" layer="91"/>
+<label x="203.2" y="-167.64" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="+12" class="0">
@@ -20410,6 +20417,8 @@ KEL 1168-056-009&lt;br&gt;</description>
 <wire x1="200.66" y1="-134.62" x2="210.82" y2="-134.62" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="-144.78" x2="200.66" y2="-134.62" width="0.1524" layer="91"/>
 <label x="198.12" y="-134.62" size="1.778" layer="95"/>
+<pinref part="R30" gate="G$1" pin="2"/>
+<wire x1="200.66" y1="-149.86" x2="200.66" y2="-144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
