@@ -19298,6 +19298,8 @@ KEL 1168-056-009&lt;br&gt;</description>
 <part name="C6" library="adafruit" deviceset="CPOL-US" device="E5-6" value="4.7uF"/>
 <part name="JAMMA1" library="JAMMA" deviceset="JAMMA_TOP" device=""/>
 <part name="JAMMA2" library="JAMMA" deviceset="JAMMA_BOTTOM" device=""/>
+<part name="R28" library="adafruit" deviceset="R-US_" device="0207/7" value="1k"/>
+<part name="R29" library="adafruit" deviceset="R-US_" device="0207/7" value="1k"/>
 </parts>
 <sheets>
 <sheet>
@@ -19351,6 +19353,8 @@ KEL 1168-056-009&lt;br&gt;</description>
 <instance part="C6" gate="G$1" x="180.34" y="-119.38" rot="R90"/>
 <instance part="JAMMA1" gate="G$1" x="-83.82" y="-33.02"/>
 <instance part="JAMMA2" gate="G$1" x="-86.36" y="-119.38"/>
+<instance part="R28" gate="G$1" x="190.5" y="-134.62"/>
+<instance part="R29" gate="G$1" x="190.5" y="-144.78"/>
 </instances>
 <busses>
 </busses>
@@ -19504,6 +19508,11 @@ KEL 1168-056-009&lt;br&gt;</description>
 <pinref part="JAMMA1" gate="G$1" pin="GND@4"/>
 <wire x1="-71.12" y1="-71.12" x2="-60.96" y2="-71.12" width="0.1524" layer="91"/>
 <label x="-66.04" y="-71.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JAMMA2" gate="G$1" pin="SPK-"/>
+<wire x1="-71.12" y1="-111.76" x2="-55.88" y2="-111.76" width="0.1524" layer="91"/>
+<label x="-60.96" y="-111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+12" class="0">
@@ -20362,6 +20371,11 @@ KEL 1168-056-009&lt;br&gt;</description>
 <wire x1="185.42" y1="-106.68" x2="195.58" y2="-106.68" width="0.1524" layer="91"/>
 <label x="187.96" y="-106.68" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="170.18" y1="-134.62" x2="185.42" y2="-134.62" width="0.1524" layer="91"/>
+<pinref part="R28" gate="G$1" pin="1"/>
+<label x="172.72" y="-134.62" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="L_AUDIO" class="0">
 <segment>
@@ -20369,12 +20383,33 @@ KEL 1168-056-009&lt;br&gt;</description>
 <wire x1="185.42" y1="-119.38" x2="195.58" y2="-119.38" width="0.1524" layer="91"/>
 <label x="187.96" y="-119.38" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="170.18" y1="-144.78" x2="185.42" y2="-144.78" width="0.1524" layer="91"/>
+<pinref part="R29" gate="G$1" pin="1"/>
+<label x="172.72" y="-144.78" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="12+" class="0">
 <segment>
 <pinref part="JAMMA2" gate="G$1" pin="+12V"/>
 <wire x1="-71.12" y1="-101.6" x2="-55.88" y2="-101.6" width="0.1524" layer="91"/>
 <label x="-60.96" y="-101.6" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="JAMMA_SPK+" class="0">
+<segment>
+<pinref part="JAMMA1" gate="G$1" pin="SPK+"/>
+<wire x1="-71.12" y1="-25.4" x2="-55.88" y2="-25.4" width="0.1524" layer="91"/>
+<label x="-68.58" y="-25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R29" gate="G$1" pin="2"/>
+<wire x1="195.58" y1="-144.78" x2="200.66" y2="-144.78" width="0.1524" layer="91"/>
+<pinref part="R28" gate="G$1" pin="2"/>
+<wire x1="195.58" y1="-134.62" x2="200.66" y2="-134.62" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="-134.62" x2="210.82" y2="-134.62" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="-144.78" x2="200.66" y2="-134.62" width="0.1524" layer="91"/>
+<label x="198.12" y="-134.62" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
