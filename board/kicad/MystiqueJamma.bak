@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:MystiqueJamma-cache
 EELAYER 26 0
 EELAYER END
 $Descr User 19251 14270
@@ -315,7 +314,7 @@ GND
 Wire Wire Line
 	17300 6500 16700 6500
 Text Label 16900 6500 2    70   ~ 0
-+12V
++12
 Wire Wire Line
 	2300 9700 2900 9700
 Text Label 2700 9700 0    70   ~ 0
@@ -601,7 +600,7 @@ L_AUDIO
 Wire Wire Line
 	17300 9800 16700 9800
 Text Label 16900 9800 2    70   ~ 0
-+12V
+12+
 Wire Wire Line
 	17300 6900 16700 6900
 Text Label 17200 6900 2    70   ~ 0
@@ -2032,7 +2031,7 @@ F 3 "" H 9100 10900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MystiqueJamma-eagle-import:C4E6-K__ U$3
+L MystiqueJamma-eagle-import:C4E6-K"" U$3
 U 1 0 6E1B97F5
 P 1800 8700
 F 0 "U$3" H 1650 9730 59  0000 L BNN
@@ -2043,7 +2042,7 @@ F 3 "" H 1800 8700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MystiqueJamma-eagle-import:C4E6-K__ U$3
+L MystiqueJamma-eagle-import:C4E6-K"" U$3
 U 2 0 6E1B97F9
 P 1800 4100
 F 0 "U$3" H 1650 5130 59  0000 L BNN
@@ -3404,9 +3403,9 @@ Wire Bus Line
 Wire Bus Line
 	6000 7300 6000 9100
 Wire Bus Line
-	3900 7200 3900 9500
-Wire Bus Line
 	3700 2100 3700 4800
+Wire Bus Line
+	3900 7200 3900 9500
 Wire Bus Line
 	11100 6900 11100 12700
 $EndSCHEMATC
