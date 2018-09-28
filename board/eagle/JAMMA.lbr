@@ -1,31 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -36,19 +32,19 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
@@ -255,6 +251,144 @@ KEL 1168-056-009&lt;br&gt;</description>
 <wire x1="-28.4" y1="-5" x2="57.4" y2="-5" width="0.127" layer="51"/>
 <wire x1="-57.4" y1="-5" x2="-31" y2="-5" width="0.127" layer="51"/>
 </package>
+<package name="JAMMA-EDGE">
+<smd name="A" x="-0.12" y="5.08" dx="2.3" dy="10" layer="16"/>
+<smd name="B" x="3.84" y="5.08" dx="2.3" dy="10" layer="16"/>
+<smd name="C" x="7.8" y="5.08" dx="2.3" dy="10" layer="16"/>
+<smd name="D" x="11.76" y="5.08" dx="2.3" dy="10" layer="16"/>
+<smd name="E" x="15.72" y="5.08" dx="2.3" dy="10" layer="16"/>
+<smd name="F" x="19.68" y="5.08" dx="2.3" dy="10" layer="16"/>
+<smd name="J" x="27.6" y="5.08" dx="2.3" dy="10" layer="16"/>
+<smd name="K" x="31.56" y="5.08" dx="2.3" dy="10" layer="16"/>
+<smd name="L" x="35.52" y="5.08" dx="2.3" dy="10" layer="16"/>
+<smd name="M" x="39.48" y="5.08" dx="2.3" dy="10" layer="16"/>
+<smd name="N" x="43.44" y="5.08" dx="2.3" dy="10" layer="16"/>
+<smd name="P" x="47.4" y="5.08" dx="2.3" dy="10" layer="16"/>
+<smd name="R" x="51.36" y="5.08" dx="2.3" dy="10" layer="16"/>
+<smd name="S" x="55.32" y="5.08" dx="2.3" dy="10" layer="16"/>
+<smd name="T" x="59.28" y="5.08" dx="2.3" dy="10" layer="16"/>
+<smd name="U" x="63.24" y="5.08" dx="2.3" dy="10" layer="16"/>
+<smd name="V" x="67.2" y="5.08" dx="2.3" dy="10" layer="16"/>
+<smd name="W" x="71.16" y="5.08" dx="2.3" dy="10" layer="16"/>
+<smd name="X" x="75.12" y="5.08" dx="2.3" dy="10" layer="16"/>
+<smd name="Y" x="79.08" y="5.08" dx="2.3" dy="10" layer="16"/>
+<smd name="Z" x="83.04" y="5.08" dx="2.3" dy="10" layer="16"/>
+<smd name="#A" x="87" y="5.08" dx="2.3" dy="10" layer="16"/>
+<smd name="#B" x="90.96" y="5.08" dx="2.3" dy="10" layer="16"/>
+<smd name="#C" x="94.92" y="5.08" dx="2.3" dy="10" layer="16"/>
+<smd name="#D" x="98.88" y="5.08" dx="2.3" dy="10" layer="16"/>
+<smd name="#E" x="102.84" y="5.08" dx="2.3" dy="10" layer="16"/>
+<smd name="#F" x="106.8" y="5.08" dx="2.3" dy="10" layer="16"/>
+<wire x1="-4.06" y1="11.08" x2="-4.06" y2="0.08" width="0.127" layer="20"/>
+<wire x1="110.74" y1="11.08" x2="110.74" y2="0.08" width="0.127" layer="20"/>
+<wire x1="-4.06" y1="0.08" x2="-3.56" y2="-0.42" width="0.127" layer="20"/>
+<wire x1="110.24" y1="-0.42" x2="110.74" y2="0.08" width="0.127" layer="20"/>
+<wire x1="-3.56" y1="-0.42" x2="21.89" y2="-0.42" width="0.127" layer="20"/>
+<wire x1="25.39" y1="-0.42" x2="110.24" y2="-0.42" width="0.127" layer="20"/>
+<wire x1="24.89" y1="0.08" x2="25.39" y2="-0.42" width="0.127" layer="20"/>
+<wire x1="21.89" y1="-0.42" x2="22.39" y2="0.08" width="0.127" layer="20"/>
+<wire x1="24.89" y1="0.08" x2="24.89" y2="11.08" width="0.127" layer="20"/>
+<wire x1="22.39" y1="0.08" x2="22.39" y2="11.08" width="0.127" layer="20"/>
+<wire x1="22.39" y1="11.08" x2="24.89" y2="11.08" width="0.127" layer="20"/>
+<text x="-0.12" y="13" size="1.27" layer="22" font="vector" rot="SMR90" align="center-left">GND</text>
+<text x="3.84" y="13" size="1.27" layer="22" font="vector" rot="SMR90" align="center-left">GND</text>
+<text x="7.8" y="13" size="1.27" layer="22" font="vector" rot="SMR90" align="center-left">+5V</text>
+<text x="11.76" y="13" size="1.27" layer="22" font="vector" rot="SMR90" align="center-left">+5V</text>
+<text x="15.72" y="13" size="1.27" layer="22" font="vector" rot="SMR90" align="center-left">-5V</text>
+<text x="19.68" y="13" size="1.27" layer="22" font="vector" rot="SMR90" align="center-left">+12V</text>
+<text x="23.64" y="13" size="1.27" layer="22" font="vector" rot="SMR90" align="center-left">KEY</text>
+<text x="27.6" y="13" size="1.27" layer="22" font="vector" rot="SMR90" align="center-left">COIN_COUNTER2</text>
+<text x="31.56" y="13" size="1.27" layer="22" font="vector" rot="SMR90" align="center-left">COIN_LOCKOUT2</text>
+<text x="35.52" y="13" size="1.27" layer="22" font="vector" rot="SMR90" align="center-left">SPEAKER(-)</text>
+<text x="39.48" y="13" size="1.27" layer="22" font="vector" rot="SMR90" align="center-left">AUDIO GND</text>
+<text x="43.44" y="13" size="1.27" layer="22" font="vector" rot="SMR90" align="center-left">VIDEO GREEN</text>
+<text x="47.4" y="13" size="1.27" layer="22" font="vector" rot="SMR90" align="center-left">VIDEO SYNC</text>
+<text x="51.36" y="13" size="1.27" layer="22" font="vector" rot="SMR90" align="center-left">SERVICE SW</text>
+<text x="55.32" y="13" size="1.27" layer="22" font="vector" rot="SMR90" align="center-left">TILT SW</text>
+<text x="59.28" y="13" size="1.27" layer="22" font="vector" rot="SMR90" align="center-left">COIN SW2</text>
+<text x="63.24" y="13" size="1.27" layer="22" font="vector" rot="SMR90" align="center-left">START SW2</text>
+<text x="67.2" y="13" size="1.27" layer="22" font="vector" rot="SMR90" align="center-left">2P1 UP</text>
+<text x="71.16" y="13" size="1.27" layer="22" font="vector" rot="MR90" align="center-left">2P2 DOWN</text>
+<text x="75.12" y="13" size="1.27" layer="22" font="vector" rot="SMR90" align="center-left">2P3 LEFT</text>
+<text x="79.08" y="13" size="1.27" layer="22" font="vector" rot="SMR90" align="center-left">2P4 RIGHT</text>
+<text x="83.04" y="13" size="1.27" layer="22" font="vector" rot="SMR90" align="center-left">2P5 PUSH1</text>
+<text x="87" y="13" size="1.27" layer="22" font="vector" rot="SMR90" align="center-left">2P6 PUSH2</text>
+<text x="90.96" y="13" size="1.27" layer="22" font="vector" rot="SMR90" align="center-left">2P7 PUSH3</text>
+<text x="94.92" y="13" size="1.27" layer="22" font="vector" rot="SMR90" align="center-left">2P8</text>
+<text x="98.88" y="13" size="1.27" layer="22" font="vector" rot="SMR90" align="center-left">2P9</text>
+<text x="102.84" y="13" size="1.27" layer="22" font="vector" rot="SMR90" align="center-left">GND</text>
+<text x="106.8" y="13" size="1.27" layer="22" font="vector" rot="SMR90" align="center-left">GND</text>
+<wire x1="24.94" y1="0.08" x2="110.74" y2="0.08" width="0.127" layer="52"/>
+<wire x1="-4.06" y1="0.08" x2="22.34" y2="0.08" width="0.127" layer="52"/>
+<smd name="1" x="-0.12" y="5.08" dx="2.3" dy="10" layer="1"/>
+<smd name="2" x="3.84" y="5.08" dx="2.3" dy="10" layer="1"/>
+<smd name="3" x="7.8" y="5.08" dx="2.3" dy="10" layer="1"/>
+<smd name="4" x="11.76" y="5.08" dx="2.3" dy="10" layer="1"/>
+<smd name="5" x="15.72" y="5.08" dx="2.3" dy="10" layer="1"/>
+<smd name="6" x="19.68" y="5.08" dx="2.3" dy="10" layer="1"/>
+<smd name="8" x="27.6" y="5.08" dx="2.3" dy="10" layer="1"/>
+<smd name="9" x="31.56" y="5.08" dx="2.3" dy="10" layer="1"/>
+<smd name="10" x="35.52" y="5.08" dx="2.3" dy="10" layer="1"/>
+<smd name="11" x="39.48" y="5.08" dx="2.3" dy="10" layer="1"/>
+<smd name="12" x="43.44" y="5.08" dx="2.3" dy="10" layer="1"/>
+<smd name="13" x="47.4" y="5.08" dx="2.3" dy="10" layer="1"/>
+<smd name="14" x="51.36" y="5.08" dx="2.3" dy="10" layer="1"/>
+<smd name="15" x="55.32" y="5.08" dx="2.3" dy="10" layer="1"/>
+<smd name="16" x="59.28" y="5.08" dx="2.3" dy="10" layer="1"/>
+<smd name="17" x="63.24" y="5.08" dx="2.3" dy="10" layer="1"/>
+<smd name="18" x="67.2" y="5.08" dx="2.3" dy="10" layer="1"/>
+<smd name="19" x="71.16" y="5.08" dx="2.3" dy="10" layer="1"/>
+<smd name="20" x="75.12" y="5.08" dx="2.3" dy="10" layer="1"/>
+<smd name="21" x="79.08" y="5.08" dx="2.3" dy="10" layer="1"/>
+<smd name="22" x="83.04" y="5.08" dx="2.3" dy="10" layer="1"/>
+<smd name="23" x="87" y="5.08" dx="2.3" dy="10" layer="1"/>
+<smd name="24" x="90.96" y="5.08" dx="2.3" dy="10" layer="1"/>
+<smd name="25" x="94.92" y="5.08" dx="2.3" dy="10" layer="1"/>
+<smd name="26" x="98.88" y="5.08" dx="2.3" dy="10" layer="1"/>
+<smd name="27" x="102.84" y="5.08" dx="2.3" dy="10" layer="1"/>
+<smd name="28" x="106.8" y="5.08" dx="2.3" dy="10" layer="1"/>
+<wire x1="-4.06" y1="11.08" x2="-4.06" y2="0.08" width="0.127" layer="20"/>
+<wire x1="110.74" y1="11.08" x2="110.74" y2="0.08" width="0.127" layer="20"/>
+<wire x1="-4.06" y1="0.08" x2="-3.56" y2="-0.42" width="0.127" layer="20"/>
+<wire x1="110.24" y1="-0.42" x2="110.74" y2="0.08" width="0.127" layer="20"/>
+<wire x1="-3.56" y1="-0.42" x2="21.89" y2="-0.42" width="0.127" layer="20"/>
+<wire x1="25.39" y1="-0.42" x2="110.24" y2="-0.42" width="0.127" layer="20"/>
+<wire x1="24.89" y1="0.08" x2="25.39" y2="-0.42" width="0.127" layer="20"/>
+<wire x1="21.89" y1="-0.42" x2="22.39" y2="0.08" width="0.127" layer="20"/>
+<wire x1="24.89" y1="0.08" x2="24.89" y2="11.08" width="0.127" layer="20"/>
+<wire x1="22.39" y1="0.08" x2="22.39" y2="11.08" width="0.127" layer="20"/>
+<wire x1="22.39" y1="11.08" x2="24.89" y2="11.08" width="0.127" layer="20"/>
+<text x="-0.12" y="13" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">GND</text>
+<text x="3.84" y="13" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">GND</text>
+<text x="7.8" y="13" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">+5V</text>
+<text x="11.76" y="13" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">+5V</text>
+<text x="15.72" y="13" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">-5V</text>
+<text x="19.68" y="13" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">+12V</text>
+<text x="23.64" y="13" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">KEY</text>
+<text x="27.6" y="13" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">COIN_COUNTER1</text>
+<text x="31.56" y="13" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">COIN_LOCKOUT1</text>
+<text x="35.52" y="13" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">SPEAKER(+)</text>
+<text x="39.48" y="13" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">AUDIO(+)</text>
+<text x="43.44" y="13" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">VIDEO RED</text>
+<text x="47.4" y="13" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">VIDEO BLUE</text>
+<text x="51.36" y="13" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">VIDEO GND</text>
+<text x="55.32" y="13" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">TEST SW</text>
+<text x="59.28" y="13" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">COIN SW1</text>
+<text x="63.24" y="13" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">START SW1</text>
+<text x="67.2" y="13" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">1P1 UP</text>
+<text x="71.16" y="13" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">1P2 DOWN</text>
+<text x="75.12" y="13" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">1P3 LEFT</text>
+<text x="79.08" y="13" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">1P4 RIGHT</text>
+<text x="83.04" y="13" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">1P5 PUSH1</text>
+<text x="87" y="13" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">1P6 PUSH2</text>
+<text x="90.96" y="13" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">1P7 PUSH3</text>
+<text x="94.92" y="13" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">1P8</text>
+<text x="98.88" y="13" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">1P9</text>
+<text x="102.84" y="13" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">GND</text>
+<text x="106.8" y="13" size="1.27" layer="21" font="vector" rot="SR90" align="center-left">GND</text>
+<wire x1="-4.06" y1="0.08" x2="22.34" y2="0.08" width="0.127" layer="51"/>
+<wire x1="24.94" y1="0.08" x2="110.74" y2="0.08" width="0.127" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="JAMMA_TOP">
@@ -432,6 +566,75 @@ KEL 1168-056-009&lt;br&gt;</description>
 <connect gate="G$1" pin="TILT_SW" pad="S"/>
 <connect gate="G$1" pin="VIDEO_GREEN" pad="N"/>
 <connect gate="G$1" pin="VIDEO_SYNC" pad="P"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JAMMA-EDGE">
+<gates>
+<gate name="PARTS" symbol="JAMMA_TOP" x="15.24" y="-2.54"/>
+<gate name="SOLDER" symbol="JAMMA_BOTTOM" x="-33.02" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="JAMMA-EDGE">
+<connects>
+<connect gate="PARTS" pin="+12V" pad="6"/>
+<connect gate="PARTS" pin="+5V@1" pad="3"/>
+<connect gate="PARTS" pin="+5V@2" pad="4"/>
+<connect gate="PARTS" pin="-5V" pad="5"/>
+<connect gate="PARTS" pin="1P1_UP" pad="18"/>
+<connect gate="PARTS" pin="1P2_DOWN" pad="19"/>
+<connect gate="PARTS" pin="1P3_LEFT" pad="20"/>
+<connect gate="PARTS" pin="1P4_RIGHT" pad="21"/>
+<connect gate="PARTS" pin="1P5_PUSH1" pad="22"/>
+<connect gate="PARTS" pin="1P6_PUSH2" pad="23"/>
+<connect gate="PARTS" pin="1P7_PUSH3" pad="24"/>
+<connect gate="PARTS" pin="1P8" pad="25"/>
+<connect gate="PARTS" pin="1P9" pad="26"/>
+<connect gate="PARTS" pin="AUDIO+" pad="11"/>
+<connect gate="PARTS" pin="COIN_CNT1" pad="8"/>
+<connect gate="PARTS" pin="COIN_LOC1" pad="9"/>
+<connect gate="PARTS" pin="COIN_SW1" pad="16"/>
+<connect gate="PARTS" pin="GND@1" pad="1"/>
+<connect gate="PARTS" pin="GND@2" pad="2"/>
+<connect gate="PARTS" pin="GND@3" pad="27"/>
+<connect gate="PARTS" pin="GND@4" pad="28"/>
+<connect gate="PARTS" pin="SPK+" pad="10"/>
+<connect gate="PARTS" pin="START_SW1" pad="17"/>
+<connect gate="PARTS" pin="TEST_SW" pad="15"/>
+<connect gate="PARTS" pin="VIDEO_BLUE" pad="13"/>
+<connect gate="PARTS" pin="VIDEO_GND" pad="14"/>
+<connect gate="PARTS" pin="VIDEO_RED" pad="12"/>
+<connect gate="SOLDER" pin="+12V" pad="F"/>
+<connect gate="SOLDER" pin="+5V@1" pad="C"/>
+<connect gate="SOLDER" pin="+5V@2" pad="D"/>
+<connect gate="SOLDER" pin="-5V" pad="E"/>
+<connect gate="SOLDER" pin="2P1_UP" pad="V"/>
+<connect gate="SOLDER" pin="2P2_DOWN" pad="W"/>
+<connect gate="SOLDER" pin="2P3_LEFT" pad="X"/>
+<connect gate="SOLDER" pin="2P4_RIGHT" pad="Y"/>
+<connect gate="SOLDER" pin="2P5_PUSH1" pad="Z"/>
+<connect gate="SOLDER" pin="2P6_PUSH2" pad="#A"/>
+<connect gate="SOLDER" pin="2P7_PUSH3" pad="#B"/>
+<connect gate="SOLDER" pin="2P8" pad="#C"/>
+<connect gate="SOLDER" pin="2P9" pad="#D"/>
+<connect gate="SOLDER" pin="AUDIO_GND" pad="M"/>
+<connect gate="SOLDER" pin="COIN_CNT2" pad="J"/>
+<connect gate="SOLDER" pin="COIN_LOC2" pad="K"/>
+<connect gate="SOLDER" pin="COIN_SW2" pad="T"/>
+<connect gate="SOLDER" pin="GND@1" pad="A"/>
+<connect gate="SOLDER" pin="GND@2" pad="B"/>
+<connect gate="SOLDER" pin="GND@3" pad="#E"/>
+<connect gate="SOLDER" pin="GND@4" pad="#F"/>
+<connect gate="SOLDER" pin="SERVICE_SW" pad="R"/>
+<connect gate="SOLDER" pin="SPK-" pad="L"/>
+<connect gate="SOLDER" pin="START_SW2" pad="U"/>
+<connect gate="SOLDER" pin="TILT_SW" pad="S"/>
+<connect gate="SOLDER" pin="VIDEO_GREEN" pad="N"/>
+<connect gate="SOLDER" pin="VIDEO_SYNC" pad="P"/>
 </connects>
 <technologies>
 <technology name=""/>
