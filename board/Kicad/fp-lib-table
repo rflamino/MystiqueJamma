@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name MystiqueJamma)(type KiCad)(uri "$(KIPRJMOD)/MystiqueJamma.pretty")(options "")(descr ""))
+)
