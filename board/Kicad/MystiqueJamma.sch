@@ -4190,14 +4190,48 @@ GATE
 $Comp
 L Connector_Generic:Conn_01x04 J1
 U 1 1 5BFE7145
-P 2300 1300
-F 0 "J1" H 2220 1617 50  0000 C CNN
-F 1 "Conn_01x04" H 2220 1526 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Mega-Fit_76829-0004_2x02_P5.70mm_Vertical" H 2300 1300 50  0001 C CNN
-F 3 "~" H 2300 1300 50  0001 C CNN
-	1    2300 1300
+P 1400 1300
+F 0 "J1" H 1320 1617 50  0000 C CNN
+F 1 "Conn_01x04" H 1320 1526 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Mega-Fit_76829-0004_2x02_P5.70mm_Vertical" H 1400 1300 50  0001 C CNN
+F 3 "~" H 1400 1300 50  0001 C CNN
+	1    1400 1300
 	-1   0    0    -1  
 $EndComp
+$Comp
+L MystiqueJamma-eagle-import:GND #GND0101
+U 1 0 5BD7AF12
+P 1850 1650
+F 0 "#GND0101" H 1850 1650 50  0001 C CNN
+F 1 "GND" H 1750 1550 59  0000 L BNN
+F 2 "" H 1850 1650 50  0001 C CNN
+F 3 "" H 1850 1650 50  0001 C CNN
+	1    1850 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L MystiqueJamma-eagle-import:+12V #P+0103
+U 1 0 5BF2CAB6
+P 1900 1200
+F 0 "#P+0103" H 1900 1200 50  0001 C CNN
+F 1 "+12V" V 1800 1000 59  0000 L BNN
+F 2 "" H 1900 1200 50  0001 C CNN
+F 3 "" H 1900 1200 50  0001 C CNN
+	1    1900 1200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1600 1200 1800 1200
+Wire Wire Line
+	1600 1300 1850 1300
+Wire Wire Line
+	1850 1300 1850 1400
+Wire Wire Line
+	1600 1400 1850 1400
+Connection ~ 1850 1400
+Wire Wire Line
+	1850 1400 1850 1550
+NoConn ~ 1600 1500
 Wire Bus Line
 	1900 10700 1900 11200
 Wire Bus Line
