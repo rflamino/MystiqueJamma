@@ -40,19 +40,19 @@ Wire Bus Line
 	11000 6800 11100 6900
 Wire Wire Line
 	1400 8600 800  8600
-Text Label 800  8600 0    70   ~ 0
+Text Label 800  8600 0    50   ~ 0
 GND
 Wire Wire Line
 	2300 8600 2800 8600
-Text Label 2800 8600 0    70   ~ 0
+Text Label 2800 8600 2    50   ~ 0
 GND
 Wire Wire Line
 	1400 4000 700  4000
-Text Label 700  4000 0    70   ~ 0
+Text Label 700  4000 0    50   ~ 0
 GND
 Wire Wire Line
 	2300 4000 3100 4000
-Text Label 3100 4000 0    70   ~ 0
+Text Label 3100 4000 2    50   ~ 0
 GND
 Wire Wire Line
 	3500 11900 3500 11700
@@ -358,15 +358,15 @@ Text Label 4900 1600 0    10   ~ 0
 GND
 Wire Wire Line
 	2300 9700 2900 9700
-Text Label 2900 9700 0    70   ~ 0
+Text Label 2900 9700 2    50   ~ 0
 +3V3
 Wire Wire Line
 	1400 5100 700  5100
-Text Label 700  5100 0    70   ~ 0
+Text Label 700  5100 0    50   ~ 0
 +3V3
 Wire Wire Line
 	3000 5100 2300 5100
-Text Label 3000 5100 0    70   ~ 0
+Text Label 3000 5100 2    50   ~ 0
 +3V3
 Wire Wire Line
 	8100 7400 8300 7400
@@ -1282,14 +1282,12 @@ Text Label 7300 800  0    10   ~ 0
 Wire Wire Line
 	5700 12100 6000 12100
 Wire Wire Line
-	6000 12100 6600 12100
-Wire Wire Line
 	5700 12100 5700 12200
 Wire Wire Line
 	6000 11900 6000 12100
 Wire Wire Line
 	5700 11900 5700 12100
-Text Label 6100 12100 0    70   ~ 0
+Text Label 6850 12100 2    70   ~ 0
 JAMMA_AUDIO
 Connection ~ 6000 12100
 Connection ~ 5700 12100
@@ -3953,17 +3951,17 @@ Mystique JAMMA
 Text Notes 11450 1580 0    59   ~ 0
 (IC5)
 Text GLabel 17300 6200 0    10   BiDi ~ 0
-+5V
+NC3
 Text GLabel 17300 6300 0    10   BiDi ~ 0
-+5V
+NC4
 Text GLabel 17300 6400 0    10   BiDi ~ 0
--5V
+NC5
 Text GLabel 17300 9500 0    10   BiDi ~ 0
-+5V
+NCC
 Text GLabel 17300 9600 0    10   BiDi ~ 0
-+5V
+NCD
 Text GLabel 17300 9700 0    10   BiDi ~ 0
--5V
+NCE
 $Comp
 L MystiqueJamma-eagle-import:+5V #P+0101
 U 1 0 5BD313F2
@@ -4143,13 +4141,13 @@ Wire Wire Line
 	2300 4900 3100 4900
 Wire Wire Line
 	2300 5000 3100 5000
-Text Label 2800 7800 0    70   ~ 0
+Text Label 2800 7800 2    50   ~ 0
 HSY
-Text Label 800  7800 0    70   ~ 0
+Text Label 800  7800 0    50   ~ 0
 VSY
-Text Label 2800 7900 0    70   ~ 0
+Text Label 2800 7900 2    50   ~ 0
 CSY
-Text Label 800  7900 0    70   ~ 0
+Text Label 800  7900 0    50   ~ 0
 GATE
 $Comp
 L Connector_Generic:Conn_01x04 J1
@@ -4196,15 +4194,15 @@ Connection ~ 2250 1200
 Wire Wire Line
 	2250 1200 2250 1350
 NoConn ~ 2000 1300
-Text Label 3100 4800 0    50   ~ 0
+Text Label 3100 4800 2    50   ~ 0
 I2S_BCK
 Text Label 700  4800 0    50   ~ 0
 IS2_WS
-Text Label 3100 4700 0    50   ~ 0
+Text Label 3100 4700 2    50   ~ 0
 I2S_DATA
-Text Label 3100 5000 0    50   ~ 0
+Text Label 3100 5000 2    50   ~ 0
 SD_DATAOUT
-Text Label 3100 4900 0    50   ~ 0
+Text Label 3100 4900 2    50   ~ 0
 SD_DATAIN
 Text Label 700  5000 0    50   ~ 0
 SD_SCLK
@@ -4212,19 +4210,19 @@ Text Label 700  4900 0    50   ~ 0
 SD_CS
 Text Label 700  4500 0    50   ~ 0
 SRAM_A0
-Text Label 3100 4400 0    50   ~ 0
+Text Label 3100 4400 2    50   ~ 0
 SRAM_A3
-Text Label 2800 8800 0    50   ~ 0
+Text Label 2800 8800 2    50   ~ 0
 SRAM_A6
 Text Label 800  9000 0    50   ~ 0
 SRAM_A9
-Text Label 2800 8300 0    50   ~ 0
+Text Label 2800 8300 2    50   ~ 0
 SRAM_A12
 Text Label 700  3800 0    50   ~ 0
 SRAM_A15
-Text Label 3100 3900 0    50   ~ 0
+Text Label 3100 3900 2    50   ~ 0
 SRAM_A18
-Text Label 3100 4500 0    50   ~ 0
+Text Label 3100 4500 2    50   ~ 0
 SRAM_A1
 Text Label 700  4400 0    50   ~ 0
 SRAM_A2
@@ -4234,23 +4232,23 @@ Text Label 800  8800 0    50   ~ 0
 SRAM_A5
 Text Label 800  8900 0    50   ~ 0
 SRAM_A7
-Text Label 2800 8900 0    50   ~ 0
+Text Label 2800 8900 2    50   ~ 0
 SRAM_A8
-Text Label 2800 8400 0    50   ~ 0
+Text Label 2800 8400 2    50   ~ 0
 SRAM_A10
 Text Label 800  8300 0    50   ~ 0
 SRAM_A11
 Text Label 800  8200 0    50   ~ 0
 SRAM_A13
-Text Label 2800 8200 0    50   ~ 0
+Text Label 2800 8200 2    50   ~ 0
 SRAM_A14
-Text Label 3100 3800 0    50   ~ 0
+Text Label 3100 3800 2    50   ~ 0
 SRAM_A16
 Text Label 700  3900 0    50   ~ 0
 SRAM_A17
 Text Label 700  4200 0    50   ~ 0
 SRAM_IO0
-Text Label 3100 4200 0    50   ~ 0
+Text Label 3100 4200 2    50   ~ 0
 SRAM_IO1
 Text Label 800  8500 0    50   ~ 0
 SRAM_IO2
@@ -4258,68 +4256,68 @@ Text Label 800  8700 0    50   ~ 0
 SRAM_IO3
 Text Label 800  8400 0    50   ~ 0
 SRAM_IO4
-Text Label 2800 8500 0    50   ~ 0
+Text Label 2800 8500 2    50   ~ 0
 SRAM_IO5
 Text Label 700  4100 0    50   ~ 0
 SRAM_IO6
-Text Label 3100 4100 0    50   ~ 0
+Text Label 3100 4100 2    50   ~ 0
 SRAM_IO7
-Text Label 3100 4300 0    50   ~ 0
+Text Label 3100 4300 2    50   ~ 0
 SRAM_CE
-Text Label 2800 8700 0    50   ~ 0
+Text Label 2800 8700 2    50   ~ 0
 SRAM_WE
-Text Label 2800 8100 0    50   ~ 0
+Text Label 2800 8100 2    50   ~ 0
 SRAM_OE
-Text Label 3100 3700 0    70   ~ 0
+Text Label 3100 3700 2    50   ~ 0
 R0
-Text Label 700  3700 0    70   ~ 0
+Text Label 700  3700 0    50   ~ 0
 R1
-Text Label 3100 3600 0    70   ~ 0
+Text Label 3100 3600 2    50   ~ 0
 R2
-Text Label 700  3600 0    70   ~ 0
+Text Label 700  3600 0    50   ~ 0
 R3
-Text Label 3100 3500 0    70   ~ 0
+Text Label 3100 3500 2    50   ~ 0
 G0
-Text Label 700  3500 0    70   ~ 0
+Text Label 700  3500 0    50   ~ 0
 G1
-Text Label 3100 3400 0    70   ~ 0
+Text Label 3100 3400 2    50   ~ 0
 G2
-Text Label 700  3400 0    70   ~ 0
+Text Label 700  3400 0    50   ~ 0
 G3
-Text Label 3100 3300 0    70   ~ 0
+Text Label 3100 3300 2    50   ~ 0
 B0
-Text Label 700  3300 0    70   ~ 0
+Text Label 700  3300 0    50   ~ 0
 B1
-Text Label 3100 3200 0    70   ~ 0
+Text Label 3100 3200 2    50   ~ 0
 B2
-Text Label 700  3200 0    70   ~ 0
+Text Label 700  3200 0    50   ~ 0
 B3
-Text Label 800  8000 0    70   ~ 0
+Text Label 800  8000 0    50   ~ 0
 CNTR_DAT
-Text Label 2800 8000 0    70   ~ 0
+Text Label 2800 8000 2    50   ~ 0
 CNTR_CLK
-Text Label 800  8100 0    70   ~ 0
+Text Label 800  8100 0    50   ~ 0
 CNTR_LATCH
 $Comp
 L Connector_Generic:Conn_02x10_Odd_Even J2
 U 1 1 5BEC091C
-P 1750 2200
-F 0 "J2" H 1800 2817 50  0000 C CNN
-F 1 "Conn_02x10_Odd_Even" H 1800 2726 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 1750 2200 50  0001 C CNN
-F 3 "~" H 1750 2200 50  0001 C CNN
-	1    1750 2200
+P 1800 6200
+F 0 "J2" H 1850 6817 50  0000 C CNN
+F 1 "Conn_02x10_Odd_Even" H 1850 6726 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 1800 6200 50  0001 C CNN
+F 3 "~" H 1800 6200 50  0001 C CNN
+	1    1800 6200
 	1    0    0    -1  
 $EndComp
 $Comp
 L MystiqueJamma-eagle-import:GND #GND0102
 U 1 0 5BF5648C
-P 1550 2800
-F 0 "#GND0102" H 1550 2800 50  0001 C CNN
-F 1 "GND" H 1450 2700 59  0000 L BNN
-F 2 "" H 1550 2800 50  0001 C CNN
-F 3 "" H 1550 2800 50  0001 C CNN
-	1    1550 2800
+P 1600 6800
+F 0 "#GND0102" H 1600 6800 50  0001 C CNN
+F 1 "GND" H 1500 6700 59  0000 L BNN
+F 2 "" H 1600 6800 50  0001 C CNN
+F 3 "" H 1600 6800 50  0001 C CNN
+	1    1600 6800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -4489,6 +4487,140 @@ Wire Wire Line
 	16700 10300 17300 10300
 Wire Wire Line
 	17300 10600 16700 10600
+Text Label 16700 10600 2    70   ~ 0
+SERVICE_SW
+NoConn ~ 17300 10100
+NoConn ~ 17300 7400
+NoConn ~ 17300 7000
+NoConn ~ 17300 6800
+Wire Wire Line
+	6000 12100 6850 12100
+Text Label 6600 12400 2    50   ~ 0
+AUD-IN
+Wire Wire Line
+	700  5800 1600 5800
+Wire Wire Line
+	3000 5800 2100 5800
+Wire Wire Line
+	3000 5900 2100 5900
+Wire Wire Line
+	3000 6000 2100 6000
+Wire Wire Line
+	3000 6100 2100 6100
+Wire Wire Line
+	3000 6200 2100 6200
+Wire Wire Line
+	3000 6300 2100 6300
+Wire Wire Line
+	3000 6400 2100 6400
+Wire Wire Line
+	3000 6500 2100 6500
+Wire Wire Line
+	3000 6600 2100 6600
+Wire Wire Line
+	3000 6700 2100 6700
+Wire Wire Line
+	1600 5900 700  5900
+Wire Wire Line
+	1600 6000 700  6000
+Wire Wire Line
+	1600 6100 700  6100
+Wire Wire Line
+	1600 6200 700  6200
+Wire Wire Line
+	1600 6300 700  6300
+Wire Wire Line
+	1600 6400 700  6400
+Wire Wire Line
+	1600 6500 700  6500
+Wire Wire Line
+	1600 6600 700  6600
+Text Label 700  5800 0    50   ~ 0
+IO_100
+Text Label 700  5900 0    50   ~ 0
+IO_91
+Text Label 700  6000 0    50   ~ 0
+IO_89
+Text Label 700  6100 0    50   ~ 0
+IO_72
+Text Label 700  6200 0    50   ~ 0
+IO_70
+Text Label 700  6300 0    50   ~ 0
+IO_68
+Text Label 700  6400 0    50   ~ 0
+IO_66
+Text Label 700  6500 0    50   ~ 0
+IO_113
+Text Label 700  6600 0    50   ~ 0
+IO_111
+Text Label 3000 5900 2    50   ~ 0
+IO_99
+Text Label 3000 6000 2    50   ~ 0
+IO_90
+Text Label 3000 6100 2    50   ~ 0
+IO_88
+Text Label 3000 6200 2    50   ~ 0
+IO_71
+Text Label 3000 6300 2    50   ~ 0
+IO_69
+Text Label 3000 6400 2    50   ~ 0
+IO_67
+Text Label 3000 6500 2    50   ~ 0
+IO_65
+Text Label 3000 6600 2    50   ~ 0
+IO_114
+Text Label 3000 6700 2    50   ~ 0
+AUD-IN
+NoConn ~ 7800 5400
+NoConn ~ 7800 5500
+NoConn ~ 7200 5600
+NoConn ~ 7200 5000
+NoConn ~ 7200 4800
+$Comp
+L MystiqueJamma-eagle-import:+3V3 #+3V0102
+U 1 0 5C84AF5F
+P 3100 5800
+F 0 "#+3V0102" H 3100 5800 50  0001 C CNN
+F 1 "+3V3" V 3000 5600 59  0000 L BNN
+F 2 "" H 3100 5800 50  0001 C CNN
+F 3 "" H 3100 5800 50  0001 C CNN
+	1    3100 5800
+	0    1    1    0   
+$EndComp
+Text Label 800  9700 0    50   ~ 0
+IO_100
+Text Label 800  9600 0    50   ~ 0
+IO_91
+Text Label 800  9500 0    50   ~ 0
+IO_89
+Text Label 800  9400 0    50   ~ 0
+IO_72
+Text Label 800  9300 0    50   ~ 0
+IO_70
+Text Label 800  9200 0    50   ~ 0
+IO_68
+Text Label 800  9100 0    50   ~ 0
+IO_66
+Text Label 700  4600 0    50   ~ 0
+IO_113
+Text Label 700  4700 0    50   ~ 0
+IO_111
+Text Label 2800 9600 2    50   ~ 0
+IO_99
+Text Label 2800 9500 2    50   ~ 0
+IO_90
+Text Label 2800 9400 2    50   ~ 0
+IO_88
+Text Label 2800 9300 2    50   ~ 0
+IO_71
+Text Label 2800 9200 2    50   ~ 0
+IO_69
+Text Label 2800 9100 2    50   ~ 0
+IO_67
+Text Label 2800 9000 2    50   ~ 0
+IO_65
+Text Label 3100 4600 2    50   ~ 0
+IO_114
 Wire Bus Line
 	1900 10700 1900 11200
 Wire Bus Line
@@ -4501,6 +4633,4 @@ Wire Bus Line
 	3900 7200 3900 9500
 Wire Bus Line
 	3700 2100 3700 4800
-Text Label 16700 10600 2    70   ~ 0
-SERVICE_SW
 $EndSCHEMATC
