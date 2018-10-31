@@ -1,5 +1,5 @@
-(module E6V33_BELOW (layer F.Cu) (tedit 5BCFDA57)
-  (fp_text reference U$3 (at -20.32 34.29) (layer F.SilkS)
+(module E6V33_BELOW (layer F.Cu) (tedit 5BD8C3A0)
+  (fp_text reference EVB1 (at -20.32 34.29) (layer F.SilkS)
     (effects (font (size 1.2065 1.2065) (thickness 0.127)) (justify left bottom))
   )
   (fp_text value C4E6-K (at -12.7 34.29) (layer F.Fab)
