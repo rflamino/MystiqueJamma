@@ -1,4 +1,4 @@
-1421405570390867
+1424489871246867
 Connector
 Banana_Jack_1Pin
 Single banana socket, footprint - 6mm drill
@@ -6373,6 +6373,13 @@ E6V33_BELOW
 80
 80
 MystiqueJamma
+flames_logo
+
+
+0
+0
+0
+MystiqueJamma
 HDF15H
 <b>SUB-D</b>
 
@@ -6393,6 +6400,13 @@ LA4425
 0
 5
 5
+MystiqueJamma
+logo_flames2
+
+
+0
+0
+0
 MystiqueJamma
 M1001
 <b>9 mm Square Rotary Potentiometers</b> Vertical, Snap-in<p>

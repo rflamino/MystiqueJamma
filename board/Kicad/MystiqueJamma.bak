@@ -1,8 +1,8 @@
 EESchema Schematic File Version 4
 LIBS:MystiqueJamma-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
-$Descr User 19128 16465
+$Descr D 34000 22000
 encoding utf-8
 Sheet 1 1
 Title ""
@@ -4108,8 +4108,6 @@ Wire Wire Line
 Wire Wire Line
 	1400 4500 700  4500
 Wire Wire Line
-	1400 4600 700  4600
-Wire Wire Line
 	1400 4700 700  4700
 Wire Wire Line
 	1400 4800 700  4800
@@ -4127,8 +4125,6 @@ Wire Wire Line
 	2300 4400 3100 4400
 Wire Wire Line
 	2300 4500 3100 4500
-Wire Wire Line
-	2300 4600 3100 4600
 Wire Wire Line
 	2300 4700 3100 4700
 Wire Wire Line
@@ -4540,7 +4536,7 @@ IO_66
 Text Label 700  6500 0    50   ~ 0
 IO_113
 Text Label 700  6600 0    50   ~ 0
-IO_111
+PS2CK
 Text Label 3000 5900 2    50   ~ 0
 IO_99
 Text Label 3000 6000 2    50   ~ 0
@@ -4556,7 +4552,7 @@ IO_67
 Text Label 3000 6500 2    50   ~ 0
 IO_65
 Text Label 3000 6600 2    50   ~ 0
-IO_114
+PS2DAT
 Text Label 3000 6700 2    50   ~ 0
 AUD-IN
 NoConn ~ 7800 5400
@@ -4592,7 +4588,7 @@ IO_66
 Text Label 700  4600 0    50   ~ 0
 IO_113
 Text Label 700  4700 0    50   ~ 0
-IO_111
+PS2CK
 Text Label 2800 9600 2    50   ~ 0
 IO_99
 Text Label 2800 9500 2    50   ~ 0
@@ -4608,9 +4604,9 @@ IO_67
 Text Label 2800 9000 2    50   ~ 0
 IO_65
 Text Label 3100 4600 2    50   ~ 0
-IO_114
+PS2DAT
 $Comp
-L Connector:Conn_01x02_Male J3
+L MystiqueJamma-rescue:Conn_01x02_Male-Connector J3
 U 1 1 5BED1A57
 P 1800 2350
 F 0 "J3" H 1906 2528 50  0000 C CNN
@@ -4668,6 +4664,244 @@ Wire Wire Line
 	16700 10200 17300 10200
 NoConn ~ 17300 6700
 NoConn ~ 17300 10000
+NoConn ~ 17300 6300
+NoConn ~ 17300 6200
+NoConn ~ 17300 6400
+$Comp
+L MystiqueJamma-rescue:Mini-DIN-6-Connector J7
+U 1 1 5BEB1F53
+P 1650 13950
+F 0 "J7" H 1650 14317 50  0000 C CNN
+F 1 "Mini-DIN-6" H 1650 14226 50  0000 C CNN
+F 2 "r_mini_din:Mini_din6" H 1650 13950 50  0001 C CNN
+F 3 "http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf" H 1650 13950 50  0001 C CNN
+	1    1650 13950
+	1    0    0    -1  
+$EndComp
+$Comp
+L MystiqueJamma-eagle-import:R-US_M1206 R99
+U 1 0 5BEB3567
+P 2550 14400
+F 0 "R99" H 2250 14409 59  0000 L BNN
+F 1 "120" H 2690 14410 59  0000 L BNN
+F 2 "MystiqueJamma:M1206" H 2550 14400 50  0001 C CNN
+F 3 "" H 2550 14400 50  0001 C CNN
+	1    2550 14400
+	1    0    0    -1  
+$EndComp
+$Comp
+L MystiqueJamma-eagle-import:R-US_M1206 R98
+U 1 0 5BEB383F
+P 2500 14050
+F 0 "R98" H 2200 14059 59  0000 L BNN
+F 1 "120" H 2640 14060 59  0000 L BNN
+F 2 "MystiqueJamma:M1206" H 2500 14050 50  0001 C CNN
+F 3 "" H 2500 14050 50  0001 C CNN
+	1    2500 14050
+	1    0    0    -1  
+$EndComp
+$Comp
+L MystiqueJamma-eagle-import:R-US_M1206 R96
+U 1 0 5BEB3ADB
+P 1250 13550
+F 0 "R96" V 1250 13750 59  0000 R TNN
+F 1 "2K2" V 1150 13800 59  0000 R TNN
+F 2 "MystiqueJamma:M1206" H 1250 13550 50  0001 C CNN
+F 3 "" H 1250 13550 50  0001 C CNN
+	1    1250 13550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MystiqueJamma-eagle-import:R-US_M1206 R97
+U 1 0 5BEB3C5F
+P 2100 13700
+F 0 "R97" V 2109 13600 59  0000 R TNN
+F 1 "2K2" V 2010 13560 59  0000 R TNN
+F 2 "MystiqueJamma:M1206" H 2100 13700 50  0001 C CNN
+F 3 "" H 2100 13700 50  0001 C CNN
+	1    2100 13700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MystiqueJamma-eagle-import:GND #GND024
+U 1 0 5BEB3DBB
+P 2000 14250
+F 0 "#GND024" H 2000 14250 50  0001 C CNN
+F 1 "GND" H 1900 14150 59  0000 L BNN
+F 2 "" H 2000 14250 50  0001 C CNN
+F 3 "" H 2000 14250 50  0001 C CNN
+	1    2000 14250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MystiqueJamma-eagle-import:C-USC1206 C31
+U 1 0 5BEB3F04
+P 2650 13450
+F 0 "C31" H 2690 13475 59  0000 L BNN
+F 1 "100nF" H 2690 13285 59  0000 L BNN
+F 2 "MystiqueJamma:C1206" H 2650 13450 50  0001 C CNN
+F 3 "" H 2650 13450 50  0001 C CNN
+	1    2650 13450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 14050 2100 14050
+$Comp
+L MystiqueJamma-eagle-import:+5V #P+08
+U 1 0 5C155F8B
+P 3950 13300
+F 0 "#P+08" H 3950 13300 50  0001 C CNN
+F 1 "+5V" V 3850 13100 59  0000 L BNN
+F 2 "" H 3950 13300 50  0001 C CNN
+F 3 "" H 3950 13300 50  0001 C CNN
+	1    3950 13300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1250 13300 1250 13350
+Wire Wire Line
+	2100 13500 2100 13300
+Wire Wire Line
+	2100 13300 1950 13300
+Wire Wire Line
+	2100 13900 2100 14050
+Connection ~ 2100 14050
+Wire Wire Line
+	2100 14050 2300 14050
+Wire Wire Line
+	1250 13750 1250 13850
+Connection ~ 1250 13850
+Wire Wire Line
+	1250 13850 1350 13850
+Wire Wire Line
+	1950 13850 1950 13300
+Connection ~ 1950 13300
+Wire Wire Line
+	1950 13300 1250 13300
+Wire Wire Line
+	2650 13300 2650 13350
+Connection ~ 2650 13300
+Wire Wire Line
+	1950 13950 2000 13950
+Text GLabel 3850 14050 2    50   BiDi ~ 0
+PS2CK
+Text GLabel 3850 14400 2    50   BiDi ~ 0
+PS2DAT
+Wire Wire Line
+	2000 13950 2000 14150
+Wire Wire Line
+	1250 14400 1250 13850
+Wire Wire Line
+	1250 14400 2350 14400
+Wire Wire Line
+	2100 13300 2650 13300
+Connection ~ 2100 13300
+$Comp
+L MystiqueJamma-eagle-import:GND #GND028
+U 1 0 5D3C93A3
+P 2650 13750
+F 0 "#GND028" H 2650 13750 50  0001 C CNN
+F 1 "GND" H 2550 13650 59  0000 L BNN
+F 2 "" H 2650 13750 50  0001 C CNN
+F 3 "" H 2650 13750 50  0001 C CNN
+	1    2650 13750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 4600 700  4600
+Wire Wire Line
+	2300 4600 3100 4600
+$Comp
+L MystiqueJamma-eagle-import:DIODE-SOD80C D6
+U 1 0 5BFF20D5
+P 3300 13700
+F 0 "D6" V 3350 13800 59  0000 L BNN
+F 1 "4148" V 3250 13800 59  0000 L BNN
+F 2 "MystiqueJamma:SOD80C" H 3300 13700 50  0001 C CNN
+F 3 "" H 3300 13700 50  0001 C CNN
+	1    3300 13700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2650 13300 3300 13300
+Wire Wire Line
+	2700 14050 3300 14050
+Wire Wire Line
+	2750 14400 3750 14400
+$Comp
+L MystiqueJamma-eagle-import:DIODE-SOD80C D8
+U 1 0 5C371873
+P 3750 13700
+F 0 "D8" V 3800 13800 59  0000 L BNN
+F 1 "4148" V 3700 13800 59  0000 L BNN
+F 2 "MystiqueJamma:SOD80C" H 3750 13700 50  0001 C CNN
+F 3 "" H 3750 13700 50  0001 C CNN
+	1    3750 13700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MystiqueJamma-eagle-import:DIODE-SOD80C D7
+U 1 0 5C371D15
+P 3300 14650
+F 0 "D7" V 3350 14750 59  0000 L BNN
+F 1 "4148" V 3250 14750 59  0000 L BNN
+F 2 "MystiqueJamma:SOD80C" H 3300 14650 50  0001 C CNN
+F 3 "" H 3300 14650 50  0001 C CNN
+	1    3300 14650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MystiqueJamma-eagle-import:DIODE-SOD80C D9
+U 1 0 5C372B76
+P 3750 14650
+F 0 "D9" V 3800 14750 59  0000 L BNN
+F 1 "4148" V 3700 14750 59  0000 L BNN
+F 2 "MystiqueJamma:SOD80C" H 3750 14650 50  0001 C CNN
+F 3 "" H 3750 14650 50  0001 C CNN
+	1    3750 14650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MystiqueJamma-eagle-import:GND #GND029
+U 1 0 5C377291
+P 3300 15000
+F 0 "#GND029" H 3300 15000 50  0001 C CNN
+F 1 "GND" H 3200 14900 59  0000 L BNN
+F 2 "" H 3300 15000 50  0001 C CNN
+F 3 "" H 3300 15000 50  0001 C CNN
+	1    3300 15000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 13800 3300 14050
+Connection ~ 3300 14050
+Wire Wire Line
+	3300 14050 3850 14050
+Wire Wire Line
+	3300 14050 3300 14550
+Wire Wire Line
+	3750 13800 3750 14400
+Connection ~ 3750 14400
+Wire Wire Line
+	3750 14400 3850 14400
+Wire Wire Line
+	3750 14400 3750 14550
+Wire Wire Line
+	3750 13600 3750 13300
+Connection ~ 3750 13300
+Wire Wire Line
+	3750 13300 3850 13300
+Wire Wire Line
+	3300 13600 3300 13300
+Connection ~ 3300 13300
+Wire Wire Line
+	3300 13300 3750 13300
+Wire Wire Line
+	3300 14750 3300 14850
+Wire Wire Line
+	3300 14850 3750 14850
+Wire Wire Line
+	3750 14850 3750 14750
 Wire Bus Line
 	1900 10700 1900 11200
 Wire Bus Line
@@ -4680,4 +4914,7 @@ Wire Bus Line
 	3900 7200 3900 9500
 Wire Bus Line
 	3700 2100 3700 4800
+Connection ~ 3300 14850
+Wire Wire Line
+	3300 14850 3300 14900
 $EndSCHEMATC
