@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name MystiqueJamma-eagle-import)(type Legacy)(uri ${KIPRJMOD}/MystiqueJamma-eagle-import.lib)(options "")(descr ""))
   (lib (name MystiqueJamma-rescue)(type Legacy)(uri ${KIPRJMOD}/MystiqueJamma-rescue.lib)(options "")(descr ""))
+  (lib (name MystiqueJamma-Logo)(type Legacy)(uri ${KIPRJMOD}/MystiqueJamma-Logo.lib)(options "")(descr ""))
 )

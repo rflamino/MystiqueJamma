@@ -6289,51 +6289,51 @@ MystiqueJamma
 1503_09
 <b>Jack connectors according to JISC 6560, 3.5 mm</b><p>
 Klinkeneinbaukupplung nach JISC 6560, 3,5 mm, 3-polig/<br>
-stereo, abgewinkelte Ausführung, mit 2 Öffnern und Lötaugen,<br>
-für Leiterplatten Rückseitenmontage<p>
-Source: http://www.lumberg.com/Produkte/PDFs/1503_09.pdf
+0
+0
+0
 
 0
 5
 5
-MystiqueJamma
-06132
-
+0
+6132
+0
 
 0
 15
 15
-MystiqueJamma
-C1206
-<b>CAPACITOR</b><p>
+0
+0
+0
 chip
 
 0
 2
 2
-MystiqueJamma
-CB360
+0
+0
 <b>TO-220</b><p> 5 lead
 
 0
 5
 5
-MystiqueJamma
-DIL20
+0
+0
 <b>Dual In Line Package</b>
 
 0
 20
 20
-MystiqueJamma
-DO41-10
+0
+0
 <B>DIODE</B><p>
 diameter 2.54 mm, horizontal, grid 10.16 mm
 
 0
 2
 2
-MystiqueJamma
+0
 E2,5-5
 <b>ELECTROLYTIC CAPACITOR</b><p>
 grid 2.54 mm, diameter 5 mm
@@ -6345,149 +6345,149 @@ MystiqueJamma
 E2,5-7
 <b>ELECTROLYTIC CAPACITOR</b><p>
 grid 2.54 mm, diameter 7 mm
-
+0
 0
 2
 2
 MystiqueJamma
 E2-4
 <b>ELECTROLYTIC CAPACITOR</b><p>
-grid 2 mm, diameter 4 mm
-
+0
+0
 0
 2
 2
 MystiqueJamma
 E3,5-8
-<b>ELECTROLYTIC CAPACITOR</b><p>
-grid 3.5 mm, diameter 8 mm
-
+0
+0
+0
 0
 2
 2
 MystiqueJamma
-E6V33_BELOW
-
-
+0
+0
+0
 0
 80
 80
 MystiqueJamma
-flames_logo
-
-
+0
+0
+0
 0
 0
 0
 MystiqueJamma
-HDF15H
-<b>SUB-D</b>
-
+0
+0
+0
 0
 15
 15
 MystiqueJamma
-JAMMA-FULL
-
-
+0
+0
+0
 0
 54
 54
 MystiqueJamma
-LA4425
-<b>TO-220</b><p> 5 lead
-
+0
+0
+0
 0
 5
 5
 MystiqueJamma
-Logotype
-
-
+0
+0
+0
 0
 0
 0
 MystiqueJamma
-logotype2
-
-
+0
+0
+0
 0
 0
 0
 MystiqueJamma
-logo_flames2
-
-
+0
+0
+0
 0
 0
 0
 MystiqueJamma
-M1001
-<b>9 mm Square Rotary Potentiometers</b> Vertical, Snap-in<p>
-Source: Panasonic
+0
+0
+0
 
 0
 5
 5
-MystiqueJamma
-M1206
-<b>RESISTOR</b><p>
+0
+0
+0
 MELF 0.25 W
 
 0
 2
 2
-MystiqueJamma
-Molex_Mega-Fit_76829-0004_2x02_P5.70mm_Vertical
+0
+0
 Molex Mega-Fit Power Connectors, 76829-0004 (compatible alternatives: 172065-0004, 172065-1004), 2 Pins per row (http://www.molex.com/pdm_docs/sd/768290004_sd.pdf), generated with kicad-footprint-generator
 connector Molex Mega-Fit side entry
 0
 4
 4
-MystiqueJamma
-R1206
+0
+0
 <b>RESISTOR</b><p>
 chip
 
 0
 2
 2
-MystiqueJamma
+0
 SCT5083wr-F-04
 Molex Mega-Fit Power Connectors, 76829-0004 (compatible alternatives: 172065-0004, 172065-1004), 2 Pins per row (http://www.molex.com/pdm_docs/sd/768290004_sd.pdf), generated with kicad-footprint-generator
 connector Molex Mega-Fit side entry
 0
 4
 4
-MystiqueJamma
+0
 SO16
 <b>Small Outline package</b> 150 mil
 
 0
 16
 16
-MystiqueJamma
+0
 SO20W
 <b>Wide Small Outline package</b> 300 mil
 
 0
 20
 20
-MystiqueJamma
+0
 SOD80C
 <B>DIODE</B>
 
 0
 2
 2
-MystiqueJamma
+0
 SOIC-16NW
 <b>SO-16</b>
 
 0
 16
 16
-MystiqueJamma
+0
 SOJV36-400
 <b>36-Lead (400-Mil) Molded SOJ V36</b><p>
 Source: CYPRESS cy7c1049cv33_8.pdf
@@ -6513,7 +6513,6 @@ teste1
 M1001
 <b>9 mm Square Rotary Potentiometers</b> Vertical, Snap-in<p>
 Source: Panasonic
-
 0
-5
+0
 5

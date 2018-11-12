@@ -1,4 +1,4 @@
-update=Wed 31 Oct 2018 01:12:53 -02
+update=12/11/2018 17:58:46
 version=1
 last_client=kicad
 [general]
@@ -92,7 +92,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [schematic_editor]
 version=1
-PageLayoutDescrFile=empty.kicad_wks
+PageLayoutDescrFile=MystiqueJamma.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
