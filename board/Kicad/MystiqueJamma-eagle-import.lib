@@ -6439,8 +6439,6 @@ F1 "DIODE-SOD80C" 100 -91 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
-T 0 -100 0 13 0 1 0 "SpiceOrder 1" Normal 0 C C
-T 0 100 0 13 0 1 0 "SpiceOrder 2" Normal 0 C C
 P 2 1 0 0 -50 -50 50 0 N
 P 2 1 0 0 -50 50 -50 -50 N
 P 2 1 0 0 50 0 -50 50 N

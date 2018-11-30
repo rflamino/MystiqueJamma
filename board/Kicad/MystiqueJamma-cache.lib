@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector_Generic_Conn_01x04
+# Connector_Generic:Conn_01x04
 #
-DEF Connector_Generic_Conn_01x04 J 0 40 Y N 1 F N
+DEF Connector_Generic:Conn_01x04 J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Connector_Generic_Conn_01x04" 0 -300 50 H V C CNN
+F1 "Connector_Generic:Conn_01x04" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -16,7 +16,7 @@ S -50 -195 0 -205 1 1 6 N
 S -50 -95 0 -105 1 1 6 N
 S -50 5 0 -5 1 1 6 N
 S -50 105 0 95 1 1 6 N
-S -50 150 50 -250 1 1 10 N
+S -50 150 50 -250 1 1 10 f
 X Pin_1 1 -200 100 150 R 50 50 1 1 P
 X Pin_2 2 -200 0 150 R 50 50 1 1 P
 X Pin_3 3 -200 -100 150 R 50 50 1 1 P
@@ -24,66 +24,11 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic_Conn_02x10_Odd_Even
+# MystiqueJamma-Logo:LOGO
 #
-DEF Connector_Generic_Conn_02x10_Odd_Even J 0 40 Y N 1 F N
-F0 "J" 50 500 50 H V C CNN
-F1 "Connector_Generic_Conn_02x10_Odd_Even" 50 -600 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_2x??_*
-$ENDFPLIST
-DRAW
-S -50 -495 0 -505 1 1 6 N
-S -50 -395 0 -405 1 1 6 N
-S -50 -295 0 -305 1 1 6 N
-S -50 -195 0 -205 1 1 6 N
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 205 0 195 1 1 6 N
-S -50 305 0 295 1 1 6 N
-S -50 405 0 395 1 1 6 N
-S -50 450 150 -550 1 1 10 f
-S 150 -495 100 -505 1 1 6 N
-S 150 -395 100 -405 1 1 6 N
-S 150 -295 100 -305 1 1 6 N
-S 150 -195 100 -205 1 1 6 N
-S 150 -95 100 -105 1 1 6 N
-S 150 5 100 -5 1 1 6 N
-S 150 105 100 95 1 1 6 N
-S 150 205 100 195 1 1 6 N
-S 150 305 100 295 1 1 6 N
-S 150 405 100 395 1 1 6 N
-X Pin_1 1 -200 400 150 R 50 50 1 1 P
-X Pin_10 10 300 0 150 L 50 50 1 1 P
-X Pin_11 11 -200 -100 150 R 50 50 1 1 P
-X Pin_12 12 300 -100 150 L 50 50 1 1 P
-X Pin_13 13 -200 -200 150 R 50 50 1 1 P
-X Pin_14 14 300 -200 150 L 50 50 1 1 P
-X Pin_15 15 -200 -300 150 R 50 50 1 1 P
-X Pin_16 16 300 -300 150 L 50 50 1 1 P
-X Pin_17 17 -200 -400 150 R 50 50 1 1 P
-X Pin_18 18 300 -400 150 L 50 50 1 1 P
-X Pin_19 19 -200 -500 150 R 50 50 1 1 P
-X Pin_2 2 300 400 150 L 50 50 1 1 P
-X Pin_20 20 300 -500 150 L 50 50 1 1 P
-X Pin_3 3 -200 300 150 R 50 50 1 1 P
-X Pin_4 4 300 300 150 L 50 50 1 1 P
-X Pin_5 5 -200 200 150 R 50 50 1 1 P
-X Pin_6 6 300 200 150 L 50 50 1 1 P
-X Pin_7 7 -200 100 150 R 50 50 1 1 P
-X Pin_8 8 300 100 150 L 50 50 1 1 P
-X Pin_9 9 -200 0 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# MystiqueJamma-Logo_LOGO
-#
-DEF ~MystiqueJamma-Logo_LOGO #G 0 40 Y Y 1 F N
+DEF ~MystiqueJamma-Logo:LOGO #G 0 40 Y Y 1 F N
 F0 "#G" 0 -450 60 H I C CNN
-F1 "MystiqueJamma-Logo_LOGO" 0 450 60 H I C CNN
+F1 "MystiqueJamma-Logo:LOGO" 0 450 60 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -97,11 +42,11 @@ P 817 0 0 1 2419 -277 2473 -259 2535 -221 2596 -165 2649 -97 2652 -93 2671 -62 2
 ENDDRAW
 ENDDEF
 #
-# MystiqueJamma-eagle-import_+12V
+# MystiqueJamma-eagle-import:+12V
 #
-DEF MystiqueJamma-eagle-import_+12V #P+ 0 40 Y Y 1 L P
+DEF MystiqueJamma-eagle-import:+12V #P+ 0 40 Y Y 1 L P
 F0 "#P+" 0 0 50 H I C CNN
-F1 "MystiqueJamma-eagle-import_+12V" -100 -200 59 V V L BNN
+F1 "MystiqueJamma-eagle-import:+12V" -100 -200 59 V V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -113,11 +58,11 @@ X +12V 1 0 -100 100 U 0 0 1 0 W
 ENDDRAW
 ENDDEF
 #
-# MystiqueJamma-eagle-import_+3V3
+# MystiqueJamma-eagle-import:+3V3
 #
-DEF MystiqueJamma-eagle-import_+3V3 #+3V3 0 40 Y Y 1 L P
+DEF MystiqueJamma-eagle-import:+3V3 #+3V3 0 40 Y Y 1 L P
 F0 "#+3V3" 0 0 50 H I C CNN
-F1 "MystiqueJamma-eagle-import_+3V3" -100 -200 59 V V L BNN
+F1 "MystiqueJamma-eagle-import:+3V3" -100 -200 59 V V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -127,11 +72,11 @@ X +3V3 1 0 -100 100 U 0 0 1 0 W
 ENDDRAW
 ENDDEF
 #
-# MystiqueJamma-eagle-import_+5V
+# MystiqueJamma-eagle-import:+5V
 #
-DEF MystiqueJamma-eagle-import_+5V #P+ 0 40 Y Y 1 L P
+DEF MystiqueJamma-eagle-import:+5V #P+ 0 40 Y Y 1 L P
 F0 "#P+" 0 0 50 H I C CNN
-F1 "MystiqueJamma-eagle-import_+5V" -100 -200 59 V V L BNN
+F1 "MystiqueJamma-eagle-import:+5V" -100 -200 59 V V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -141,11 +86,11 @@ X +5V 1 0 -100 100 U 0 0 1 0 W
 ENDDRAW
 ENDDEF
 #
-# MystiqueJamma-eagle-import_1503_09
+# MystiqueJamma-eagle-import:1503_09
 #
-DEF MystiqueJamma-eagle-import_1503_09 X 0 40 Y Y 1 L N
+DEF MystiqueJamma-eagle-import:1503_09 X 0 40 Y Y 1 L N
 F0 "X" -100 250 59 H V L BNN
-F1 "MystiqueJamma-eagle-import_1503_09" -100 -300 59 H V L BNN
+F1 "MystiqueJamma-eagle-import:1503_09" -100 -300 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -176,11 +121,11 @@ X 5 5 -200 100 100 R 50 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# MystiqueJamma-eagle-import_1N4004
+# MystiqueJamma-eagle-import:1N4004
 #
-DEF MystiqueJamma-eagle-import_1N4004 D 0 40 Y Y 1 L N
+DEF MystiqueJamma-eagle-import:1N4004 D 0 40 Y Y 1 L N
 F0 "D" 100 19 59 H V L BNN
-F1 "MystiqueJamma-eagle-import_1N4004" 100 -91 59 H V L BNN
+F1 "MystiqueJamma-eagle-import:1N4004" 100 -91 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -194,11 +139,11 @@ X C C 100 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# MystiqueJamma-eagle-import_4021D
+# MystiqueJamma-eagle-import:4021D
 #
-DEF ~MystiqueJamma-eagle-import_4021D IC 0 40 Y Y 2 L N
+DEF ~MystiqueJamma-eagle-import:4021D IC 0 40 Y Y 2 L N
 F0 "IC" -50 -25 59 H V L BNN
-F1 "MystiqueJamma-eagle-import_4021D" -300 -700 59 H I L BNN
+F1 "MystiqueJamma-eagle-import:4021D" -300 -700 59 H I L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -227,11 +172,11 @@ X VSS 8 0 -300 200 U 50 0 2 0 W
 ENDDRAW
 ENDDEF
 #
-# MystiqueJamma-eagle-import_74245DW
+# MystiqueJamma-eagle-import:74245DW
 #
-DEF ~MystiqueJamma-eagle-import_74245DW IC 0 40 Y Y 2 L N
+DEF ~MystiqueJamma-eagle-import:74245DW IC 0 40 Y Y 2 L N
 F0 "IC" -25 -25 59 H V L BNN
-F1 "MystiqueJamma-eagle-import_74245DW" -300 -700 59 H I L BNN
+F1 "MystiqueJamma-eagle-import:74245DW" -300 -700 59 H I L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -264,11 +209,11 @@ X VCC 20 0 400 100 D 50 0 2 0 W
 ENDDRAW
 ENDDEF
 #
-# MystiqueJamma-eagle-import_C-USC1206
+# MystiqueJamma-eagle-import:C-USC1206
 #
-DEF MystiqueJamma-eagle-import_C-USC1206 C 0 40 Y Y 1 L N
+DEF MystiqueJamma-eagle-import:C-USC1206 C 0 40 Y Y 1 L N
 F0 "C" 40 25 59 H V L BNN
-F1 "MystiqueJamma-eagle-import_C-USC1206" 40 -165 59 H V L BNN
+F1 "MystiqueJamma-eagle-import:C-USC1206" 40 -165 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -281,11 +226,11 @@ X 2 2 0 -200 100 U 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# MystiqueJamma-eagle-import_C4E6-K
+# MystiqueJamma-eagle-import:C4E6-K
 #
-DEF MystiqueJamma-eagle-import_C4E6-K B 0 40 Y Y 2 L N
+DEF MystiqueJamma-eagle-import:C4E6-K B 0 40 Y Y 2 L N
 F0 "B" -150 1030 59 H V L BNN
-F1 "MystiqueJamma-eagle-import_C4E6-K" -150 -1200 59 H V L BNN
+F1 "MystiqueJamma-eagle-import:C4E6-K" -150 -1200 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -460,11 +405,11 @@ X 40 VCC3 500 -1000 200 L 50 50 2 0 P
 ENDDRAW
 ENDDEF
 #
-# MystiqueJamma-eagle-import_CPOL-USE2-4
+# MystiqueJamma-eagle-import:CPOL-USE2-4
 #
-DEF MystiqueJamma-eagle-import_CPOL-USE2-4 C 0 40 Y Y 1 L N
+DEF MystiqueJamma-eagle-import:CPOL-USE2-4 C 0 40 Y Y 1 L N
 F0 "C" 40 25 59 H V L BNN
-F1 "MystiqueJamma-eagle-import_CPOL-USE2-4" 40 -165 59 H V L BNN
+F1 "MystiqueJamma-eagle-import:CPOL-USE2-4" 40 -165 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -479,11 +424,11 @@ X - - 0 -200 100 U 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# MystiqueJamma-eagle-import_CPOL-USE2.5-5
+# MystiqueJamma-eagle-import:CPOL-USE2.5-5
 #
-DEF MystiqueJamma-eagle-import_CPOL-USE2.5-5 C 0 40 Y Y 1 L N
+DEF MystiqueJamma-eagle-import:CPOL-USE2.5-5 C 0 40 Y Y 1 L N
 F0 "C" 40 25 59 H V L BNN
-F1 "MystiqueJamma-eagle-import_CPOL-USE2.5-5" 40 -165 59 H V L BNN
+F1 "MystiqueJamma-eagle-import:CPOL-USE2.5-5" 40 -165 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -498,11 +443,11 @@ X - - 0 -200 100 U 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# MystiqueJamma-eagle-import_CPOL-USE2.5-7
+# MystiqueJamma-eagle-import:CPOL-USE2.5-7
 #
-DEF MystiqueJamma-eagle-import_CPOL-USE2.5-7 C 0 40 Y Y 1 L N
+DEF MystiqueJamma-eagle-import:CPOL-USE2.5-7 C 0 40 Y Y 1 L N
 F0 "C" 40 25 59 H V L BNN
-F1 "MystiqueJamma-eagle-import_CPOL-USE2.5-7" 40 -165 59 H V L BNN
+F1 "MystiqueJamma-eagle-import:CPOL-USE2.5-7" 40 -165 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -517,11 +462,11 @@ X - - 0 -200 100 U 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# MystiqueJamma-eagle-import_CPOL-USE3.5-8
+# MystiqueJamma-eagle-import:CPOL-USE3.5-8
 #
-DEF MystiqueJamma-eagle-import_CPOL-USE3.5-8 C 0 40 Y Y 1 L N
+DEF MystiqueJamma-eagle-import:CPOL-USE3.5-8 C 0 40 Y Y 1 L N
 F0 "C" 40 25 59 H V L BNN
-F1 "MystiqueJamma-eagle-import_CPOL-USE3.5-8" 40 -165 59 H V L BNN
+F1 "MystiqueJamma-eagle-import:CPOL-USE3.5-8" 40 -165 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -536,11 +481,11 @@ X - - 0 -200 100 U 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# MystiqueJamma-eagle-import_CY7C1049CV33
+# MystiqueJamma-eagle-import:CY7C1049CV33
 #
-DEF MystiqueJamma-eagle-import_CY7C1049CV33 IC 0 40 Y Y 1 L N
+DEF MystiqueJamma-eagle-import:CY7C1049CV33 IC 0 40 Y Y 1 L N
 F0 "IC" -300 1025 59 H V L BNN
-F1 "MystiqueJamma-eagle-import_CY7C1049CV33" -300 -1100 59 H V L BNN
+F1 "MystiqueJamma-eagle-import:CY7C1049CV33" -300 -1100 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -585,16 +530,14 @@ X +3V@1 9 600 900 200 L 50 50 1 0 W
 ENDDRAW
 ENDDEF
 #
-# MystiqueJamma-eagle-import_DIODE-SOD80C
+# MystiqueJamma-eagle-import:DIODE-SOD80C
 #
-DEF MystiqueJamma-eagle-import_DIODE-SOD80C D 0 40 Y Y 1 L N
+DEF MystiqueJamma-eagle-import:DIODE-SOD80C D 0 40 Y Y 1 L N
 F0 "D" 100 19 59 H V L BNN
-F1 "MystiqueJamma-eagle-import_DIODE-SOD80C" 100 -91 59 H V L BNN
+F1 "MystiqueJamma-eagle-import:DIODE-SOD80C" 100 -91 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
-T 0 -100 0 13 0 1 0 "SpiceOrder 1" Normal 0 C C
-T 0 100 0 13 0 1 0 "SpiceOrder 2" Normal 0 C C
 P 2 1 0 0 -50 -50 50 0 N
 P 2 1 0 0 -50 50 -50 -50 N
 P 2 1 0 0 50 0 -50 50 N
@@ -605,11 +548,11 @@ X C C 100 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# MystiqueJamma-eagle-import_GND
+# MystiqueJamma-eagle-import:GND
 #
-DEF MystiqueJamma-eagle-import_GND #GND 0 40 Y Y 1 L P
+DEF MystiqueJamma-eagle-import:GND #GND 0 40 Y Y 1 L P
 F0 "#GND" 0 0 50 H I C CNN
-F1 "MystiqueJamma-eagle-import_GND" -100 -100 59 H V L BNN
+F1 "MystiqueJamma-eagle-import:GND" -100 -100 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -618,11 +561,11 @@ X GND 1 0 100 100 D 0 0 1 0 W
 ENDDRAW
 ENDDEF
 #
-# MystiqueJamma-eagle-import_HF15H
+# MystiqueJamma-eagle-import:HF15H
 #
-DEF MystiqueJamma-eagle-import_HF15H X 0 40 Y Y 1 L N
+DEF MystiqueJamma-eagle-import:HF15H X 0 40 Y Y 1 L N
 F0 "X" -150 550 59 H V L BNN
-F1 "MystiqueJamma-eagle-import_HF15H" -175 -725 59 H V L BNN
+F1 "MystiqueJamma-eagle-import:HF15H" -175 -725 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -672,11 +615,11 @@ X 9 9 -300 -300 200 R 50 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# MystiqueJamma-eagle-import_JAMMA-EDGE-MYSTIQUE
+# MystiqueJamma-eagle-import:JAMMA-EDGE-MYSTIQUE
 #
-DEF MystiqueJamma-eagle-import_JAMMA-EDGE-MYSTIQUE ~ 0 40 Y Y 2 L N
+DEF MystiqueJamma-eagle-import:JAMMA-EDGE-MYSTIQUE ~ 0 40 Y Y 2 L N
 F0 "" -400 1300 59 H V L BNN
-F1 "MystiqueJamma-eagle-import_JAMMA-EDGE-MYSTIQUE" -400 -1700 59 H V L BNN
+F1 "MystiqueJamma-eagle-import:JAMMA-EDGE-MYSTIQUE" -400 -1700 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -745,11 +688,11 @@ X 2P5_PUSH1 Z 600 -900 200 L 50 50 2 0 I
 ENDDRAW
 ENDDEF
 #
-# MystiqueJamma-eagle-import_LA4425V
+# MystiqueJamma-eagle-import:LA4425V
 #
-DEF MystiqueJamma-eagle-import_LA4425V IC 0 40 Y Y 1 L N
+DEF MystiqueJamma-eagle-import:LA4425V IC 0 40 Y Y 1 L N
 F0 "IC" 100 125 59 H V L BNN
-F1 "MystiqueJamma-eagle-import_LA4425V" 100 -200 59 H V L BNN
+F1 "MystiqueJamma-eagle-import:LA4425V" 100 -200 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -769,11 +712,11 @@ X V+ 5 0 300 200 D 50 0 1 0 W
 ENDDRAW
 ENDDEF
 #
-# MystiqueJamma-eagle-import_R-US_M1206
+# MystiqueJamma-eagle-import:R-US_M1206
 #
-DEF MystiqueJamma-eagle-import_R-US_M1206 R 0 40 Y Y 1 L N
+DEF MystiqueJamma-eagle-import:R-US_M1206 R 0 40 Y Y 1 L N
 F0 "R" -150 59 59 H V L BNN
-F1 "MystiqueJamma-eagle-import_R-US_M1206" -150 -130 59 H V L BNN
+F1 "MystiqueJamma-eagle-import:R-US_M1206" -150 -130 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -791,11 +734,11 @@ X 2 2 200 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# MystiqueJamma-eagle-import_R-US_R1206
+# MystiqueJamma-eagle-import:R-US_R1206
 #
-DEF MystiqueJamma-eagle-import_R-US_R1206 R 0 40 Y Y 1 L N
+DEF MystiqueJamma-eagle-import:R-US_R1206 R 0 40 Y Y 1 L N
 F0 "R" -150 59 59 H V L BNN
-F1 "MystiqueJamma-eagle-import_R-US_R1206" -150 -130 59 H V L BNN
+F1 "MystiqueJamma-eagle-import:R-US_R1206" -150 -130 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -813,11 +756,11 @@ X 2 2 200 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# MystiqueJamma-eagle-import_SDMMC06132
+# MystiqueJamma-eagle-import:SDMMC06132
 #
-DEF ~MystiqueJamma-eagle-import_SDMMC06132 ~ 0 40 Y Y 1 L N
+DEF ~MystiqueJamma-eagle-import:SDMMC06132 ~ 0 40 Y Y 1 L N
 F0 "" 0 0 50 H I C CNN
-F1 "MystiqueJamma-eagle-import_SDMMC06132" 0 0 50 H I C CNN
+F1 "MystiqueJamma-eagle-import:SDMMC06132" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -843,11 +786,11 @@ X WRITE_PROTECT WP -500 600 100 R 50 50 1 0 P
 ENDDRAW
 ENDDEF
 #
-# MystiqueJamma-eagle-import_TDA1543T
+# MystiqueJamma-eagle-import:TDA1543T
 #
-DEF ~MystiqueJamma-eagle-import_TDA1543T IC 0 40 Y Y 2 L N
+DEF ~MystiqueJamma-eagle-import:TDA1543T IC 0 40 Y Y 2 L N
 F0 "IC" -380 330 59 H I L BNN
-F1 "MystiqueJamma-eagle-import_TDA1543T" -400 -400 59 H I L BNN
+F1 "MystiqueJamma-eagle-import:TDA1543T" -400 -400 59 H I L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -866,11 +809,11 @@ X GND 6 0 -500 200 U 50 50 2 0 W
 ENDDRAW
 ENDDEF
 #
-# MystiqueJamma-eagle-import_TDA2030V
+# MystiqueJamma-eagle-import:TDA2030V
 #
-DEF MystiqueJamma-eagle-import_TDA2030V IC 0 40 Y Y 1 L N
+DEF MystiqueJamma-eagle-import:TDA2030V IC 0 40 Y Y 1 L N
 F0 "IC" 100 125 59 H V L BNN
-F1 "MystiqueJamma-eagle-import_TDA2030V" 100 -200 59 H V L BNN
+F1 "MystiqueJamma-eagle-import:TDA2030V" 100 -200 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -890,11 +833,11 @@ X V+ 5 0 300 200 D 50 0 1 0 W
 ENDDRAW
 ENDDEF
 #
-# MystiqueJamma-eagle-import_TLS1233
+# MystiqueJamma-eagle-import:TLS1233
 #
-DEF MystiqueJamma-eagle-import_TLS1233 IC 0 40 Y Y 1 L N
+DEF MystiqueJamma-eagle-import:TLS1233 IC 0 40 Y Y 1 L N
 F0 "IC" -600 1125 59 H V L BNN
-F1 "MystiqueJamma-eagle-import_TLS1233" -600 -1300 59 H V L BNN
+F1 "MystiqueJamma-eagle-import:TLS1233" -600 -1300 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -925,11 +868,11 @@ X B-CL_CAP 9 -800 -400 200 R 50 50 1 0 I
 ENDDRAW
 ENDDEF
 #
-# MystiqueJamma-eagle-import_TRIM_EU-B90P
+# MystiqueJamma-eagle-import:TRIM_EU-B90P
 #
-DEF MystiqueJamma-eagle-import_TRIM_EU-B90P R 0 40 Y Y 1 L N
+DEF MystiqueJamma-eagle-import:TRIM_EU-B90P R 0 40 Y Y 1 L N
 F0 "R" -235 -150 59 V V L BNN
-F1 "MystiqueJamma-eagle-import_TRIM_EU-B90P" -150 -150 59 V V L BNN
+F1 "MystiqueJamma-eagle-import:TRIM_EU-B90P" -150 -150 59 V V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -949,11 +892,11 @@ X S S 200 0 100 L 50 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# MystiqueJamma-eagle-import_VOLUME-POT
+# MystiqueJamma-eagle-import:VOLUME-POT
 #
-DEF ~MystiqueJamma-eagle-import_VOLUME-POT P 0 40 Y Y 2 L N
+DEF ~MystiqueJamma-eagle-import:VOLUME-POT P 0 40 Y Y 2 L N
 F0 "P" -235 -150 59 V I L BNN
-F1 "MystiqueJamma-eagle-import_VOLUME-POT" -150 -150 59 V I L BNN
+F1 "MystiqueJamma-eagle-import:VOLUME-POT" -150 -150 59 V I L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -978,11 +921,11 @@ X G@2 G2 0 -200 100 U 50 0 2 0 P
 ENDDRAW
 ENDDEF
 #
-# MystiqueJamma-eagle-import_V_REG_78XXSINK
+# MystiqueJamma-eagle-import:V_REG_78XXSINK
 #
-DEF MystiqueJamma-eagle-import_V_REG_78XXSINK IC 0 40 Y Y 1 L N
+DEF MystiqueJamma-eagle-import:V_REG_78XXSINK IC 0 40 Y Y 1 L N
 F0 "IC" 100 -300 59 H V L BNN
-F1 "MystiqueJamma-eagle-import_V_REG_78XXSINK" 100 -400 59 H V L BNN
+F1 "MystiqueJamma-eagle-import:V_REG_78XXSINK" 100 -400 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -999,11 +942,11 @@ X OUT OUT 300 0 100 L 0 0 1 0 O
 ENDDRAW
 ENDDEF
 #
-# MystiqueJamma-rescue_Conn_01x02_Male-Connector
+# MystiqueJamma-rescue:Conn_01x02_Male-Connector
 #
-DEF MystiqueJamma-rescue_Conn_01x02_Male-Connector J 0 40 Y N 1 F N
+DEF MystiqueJamma-rescue:Conn_01x02_Male-Connector J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "MystiqueJamma-rescue_Conn_01x02_Male-Connector" 0 -200 50 H V C CNN
+F1 "MystiqueJamma-rescue:Conn_01x02_Male-Connector" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1019,11 +962,11 @@ X Pin_2 2 200 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MystiqueJamma-rescue_Mini-DIN-6-Connector
+# MystiqueJamma-rescue:Mini-DIN-6-Connector
 #
-DEF MystiqueJamma-rescue_Mini-DIN-6-Connector J 0 40 Y Y 1 F N
+DEF MystiqueJamma-rescue:Mini-DIN-6-Connector J 0 40 Y Y 1 F N
 F0 "J" 0 250 50 H V C CNN
-F1 "MystiqueJamma-rescue_Mini-DIN-6-Connector" 0 -250 50 H V C CNN
+F1 "MystiqueJamma-rescue:Mini-DIN-6-Connector" 0 -250 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
