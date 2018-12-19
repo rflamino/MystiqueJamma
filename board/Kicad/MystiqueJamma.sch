@@ -6,8 +6,8 @@ $Descr C 22000 17000
 encoding utf-8
 Sheet 1 1
 Title "Mystique Jamma"
-Date "2018-12-04"
-Rev "A"
+Date "2018-12-19"
+Rev "B"
 Comp "Reinaldo Flamino / Danjovic"
 Comment1 ""
 Comment2 ""
@@ -1169,27 +1169,17 @@ Wire Wire Line
 	12000 13950 12000 14250
 Wire Wire Line
 	12000 14250 12200 14250
-Wire Wire Line
-	12000 14250 11100 14250
-Connection ~ 12000 14250
-Text Label 11100 14250 0    50   ~ 0
+Text Label 11050 10350 0    50   ~ 0
 SD_DATAOUT
 Wire Wire Line
 	12200 14350 11700 14350
 Wire Wire Line
 	11700 14350 11700 14050
-Wire Wire Line
-	11700 14350 11100 14350
-Connection ~ 11700 14350
-Text Label 11100 14350 0    50   ~ 0
+Text Label 11050 9950 0    50   ~ 0
 SD_DATAIN
-Wire Wire Line
-	12200 14450 11100 14450
-Text Label 11100 14450 0    50   ~ 0
+Text Label 11050 10150 0    50   ~ 0
 SD_CNT_SCLK
-Wire Wire Line
-	12200 14550 11100 14550
-Text Label 11100 14550 0    50   ~ 0
+Text Label 11050 9850 0    50   ~ 0
 SD_CS
 Wire Wire Line
 	3600 11300 4200 11300
@@ -1700,14 +1690,6 @@ Entry Wire Line
 	7500 9800 7600 9900
 Entry Wire Line
 	7500 9900 7600 10000
-Entry Wire Line
-	11000 14150 11100 14250
-Entry Wire Line
-	11000 14250 11100 14350
-Entry Wire Line
-	11000 14350 11100 14450
-Entry Wire Line
-	11000 14450 11100 14550
 Entry Wire Line
 	3500 11200 3600 11300
 Entry Wire Line
@@ -5140,6 +5122,82 @@ Wire Wire Line
 	2400 10500 3000 10500
 Text Label 2400 10500 0    50   ~ 0
 VGA_DET_IN
+$Comp
+L Connector:Micro_SD_Card J2
+U 1 1 5C270111
+P 12450 10050
+F 0 "J2" H 12400 10767 50  0000 C CNN
+F 1 "Micro_SD_Card" H 12400 10676 50  0000 C CNN
+F 2 "Connector_Card:microSD_HC_Wuerth_693072010801" H 13600 10350 50  0001 C CNN
+F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 12450 10050 50  0001 C CNN
+	1    12450 10050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11050 9850 11550 9850
+Wire Wire Line
+	11050 9950 11550 9950
+Wire Wire Line
+	10950 10050 11550 10050
+Wire Wire Line
+	11050 10150 11550 10150
+Wire Wire Line
+	11050 10350 11550 10350
+NoConn ~ 11550 9750
+NoConn ~ 11550 10450
+$Comp
+L MystiqueJamma-eagle-import:GND #GND033
+U 1 0 5C94C078
+P 10950 10550
+F 0 "#GND033" H 10950 10550 50  0001 C CNN
+F 1 "GND" H 10850 10450 59  0000 L BNN
+F 2 "" H 10950 10550 50  0001 C CNN
+F 3 "" H 10950 10550 50  0001 C CNN
+	1    10950 10550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 13250 10650
+$Comp
+L MystiqueJamma-eagle-import:+3V3 #+3V09
+U 1 0 5CA1018B
+P 10850 10050
+F 0 "#+3V09" H 10850 10050 50  0001 C CNN
+F 1 "+3V3" V 11000 9950 59  0000 L BNN
+F 2 "" H 10850 10050 50  0001 C CNN
+F 3 "" H 10850 10050 50  0001 C CNN
+	1    10850 10050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10950 10250 10950 10450
+Wire Wire Line
+	10950 10250 11550 10250
+Text Label 11150 14250 0    50   ~ 0
+SD_DATAOUT
+Text Label 11150 14350 0    50   ~ 0
+SD_DATAIN
+Text Label 11150 14450 0    50   ~ 0
+SD_CNT_SCLK
+Text Label 11150 14550 0    50   ~ 0
+SD_CS
+Entry Wire Line
+	11000 14150 11100 14250
+Entry Wire Line
+	11000 14250 11100 14350
+Entry Wire Line
+	11000 14350 11100 14450
+Entry Wire Line
+	11000 14450 11100 14550
+Wire Wire Line
+	11100 14250 12000 14250
+Connection ~ 12000 14250
+Wire Wire Line
+	11700 14350 11100 14350
+Connection ~ 11700 14350
+Wire Wire Line
+	11100 14450 12200 14450
+Wire Wire Line
+	12200 14550 11100 14550
 Wire Bus Line
 	13800 7800 13800 13650
 Wire Bus Line
